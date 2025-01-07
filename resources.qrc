@@ -1,0 +1,42 @@
+<RCC>
+  <qresource prefix=":/plugins/PathPlanner_3">
+    <file>icons/about.png</file>
+    <file>icons/addMissionRegion.png</file>
+    <file>icons/addrestrictedRegion.png</file>
+    <file>icons/stateDisable.png</file>
+    <file>icons/stateEnable.png</file>
+    <file>icons/stateKeep.png</file>
+    <file>icons/arrowDown.png</file>
+    <file>icons/arrowUp.png</file>
+    <file>icons/mActionAdd.png</file>
+    <file>icons/add.png</file>
+    <file>icons/remove.png</file>
+    <file>icons/mActionAddVertex.png</file>
+    <file>icons/mActionDeleteVertex.png</file>
+    <file>icons/move_blue.png</file>
+    <file>icons/mActionFormAnnotation.png</file>
+    <file>icons/mActionMoveVertex.png</file>
+    <file>icons/mIconClear.png</file>
+    <file>icons/icon.png</file>
+    <file>icons/load.png</file>
+    <file>icons/newpage.png</file>
+    <file>icons/save.png</file>
+    <file>icons/quit.png</file>
+    <file>icons/edit.png</file>
+    <file>icons/delete.png</file>
+    <file>icons/deletered.png</file>
+    <file>icons/compass.png</file>
+    <file>icons/move2red.png</file>
+    <file>icons/wifi.png</file>
+    <file>icons/stock_task.png</file>
+    <file>icons/object_rotate_right.png</file>
+    <file>icons/insert_horizontal_rule.png</file>
+    <file>icons/insert_link.png</file>
+    <file>icons/draw_rect.png</file>
+    <file>icons/draw_ellipse.png</file>
+    <file>icons/draw_polygon.png</file>
+    <file>icons/undo.png</file>
+	<file>icons/region_allowed.png</file>
+	<file>icons/region_denied.png</file>
+  </qresource>
+</RCC>

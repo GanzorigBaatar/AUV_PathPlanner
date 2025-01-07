@@ -1,0 +1,58 @@
+{
+  "name": "DEDAVE 2k",
+  "description": "Test vehicle of IOSB-AST",
+  "properties": {
+    "minimumSpeed": 0.1,
+    "maximumSpeed": 1.9,
+    "hoGLimit": 2.0,
+    "depthLimit": 2000.0,
+    "acceleration": 0.2
+  },
+  "energy": {
+    "standby": 25.0,
+    "operating": [0.1,
+    15.0,
+    0.2,
+    25.0,
+    0.3,
+    45.0,
+    0.4,
+    60.0,
+    0.5,
+    75.0,
+    0.6,
+    90.0]
+  },
+  "payloads": {
+    "MinSAS-6000": {
+      "command_name": "MinSAS",
+      "type=": "Synthetic aperture side scan sonar",
+      "parameters": {
+        "range": 300.0,
+        "freq": 5000000,
+        "power_standby": 10.0,
+        "power_operating": 30.0
+      }
+    },
+    "Imagenex 837B": {
+      "command_name": "Imagenex837",
+      "type=": "Multi-beam sonar",
+      "parameters": {
+        "range": 100.0,
+        "freq": 2600000,
+        "power_standby": 5.0,
+        "power_operating": 15.0
+      }
+    },
+    "BathySwath": {
+      "command_name": "BathySwath",
+      "type=": "Interferometric side scan sonar",
+      "parameters": {
+        "range": 100.0,
+        "freq": 2600000,
+        "power_standby": 5.0,
+        "power_operating": 15.0
+      }
+    }
+  }
+}
